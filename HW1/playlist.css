@@ -86,3 +86,19 @@ a {
 
     font-size: 30px;
 }
+
+.blueWhite {
+    background-color: blue;
+    color: white;
+}
+
+.highlightRow {
+    background-color: lightblue;
+    /* רקע כחול בהיר */
+    font-size: 20px;
+    /* הפונט יגדל */
+    font-weight: bold;
+    /* טקסט יהפוך לבולד */
+    color: darkblue;
+    /* טקסט כחול כהה */
+}
