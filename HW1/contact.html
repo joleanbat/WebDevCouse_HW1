@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Form Table</title>
+    <style>
+        table {
+            width: 350px;
+            border: 2px solid #999;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #999;
+            padding: 6px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th {
+            font-size: 22px;
+            padding: 15px;
+        }
+
+        input,
+        textarea {
+            width: 95%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 90px;
+        }
+
+        .send-btn {
+            width: 120px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Contact</h1>
+
+    <table>
+        <tr>
+            <th colspan="2">Send a Message</th>
+        </tr>
+
+        <tr>
+            <td>Name:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Phone:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Subject:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Message:</td>
+            <td><textarea></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align:center;">
+                <button class="send-btn" onclick="sendAlert()">Send Message</button>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        function sendAlert() {
+            alert("DEBUG: Send Message button clicked!");
+        }
+    </script>
+
+</body>
+
+</html>
